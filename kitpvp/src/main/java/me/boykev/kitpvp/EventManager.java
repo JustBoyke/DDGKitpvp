@@ -28,6 +28,8 @@ public class EventManager implements Listener{
 				String signpref = ChatColor.translateAlternateColorCodes('&', cm.getConfig().getString("Sign-Prefix"));
 				if(sign.getLine(0).equalsIgnoreCase(signpref)) {
 					
+					//Hier de code die uitgevoerd moet worden als een sign is aangeklikt (On-Hold voor het ID systeem)
+					
 				}
 				return;
 			}
