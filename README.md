@@ -11,4 +11,5 @@ todo:
 - [ ] menu voor instelbare kits
 - [ ] opslaan kills / deaths in database
 - [ ] scoreboard met kils, deaths en KD ratio me live update
+- [x] Signs er buuutifool uit laten zien xD
 - [x] gebruik maven < DONE
