@@ -11,9 +11,12 @@ public class Main extends JavaPlugin{
 	
 	public HashMap<Player, Integer> mapid = new HashMap<Player, Integer>();
 	public ConfigManager cm;
+	public MapManager mm;
 	
 	public void onEnable() {
 		cm = new ConfigManager(this);
+		mm = new MapManager(this);
+		mm.LoadDefaults();
 		cm.LoadDefaults();
 		cm.save();
 		System.out.println(ChatColor.GREEN + "KitPVP is nu opgestart :)");
