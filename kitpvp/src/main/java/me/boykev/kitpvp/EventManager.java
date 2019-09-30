@@ -21,6 +21,7 @@ public class EventManager implements Listener{
 	private MapManager mm;
 	
 	public void onSignClick(PlayerInteractEvent e) {
+		//Hier moet nog wat mee gebeuren, stop met zeuren dat het nog niet gebruikt wordt, i know the fkng issue. Dankje <3
 		HashMap<Player, Integer> mapid = instance.mapid;
 		cm = new ConfigManager(instance);
 		mm = new MapManager(instance);
@@ -39,7 +40,7 @@ public class EventManager implements Listener{
 						return;
 					}
 					
-					
+//					mapid.put(p, key); < To be inserted if shit is done
 					
 					
 					//Hier de code die uitgevoerd moet worden als een sign is aangeklikt en de map bestaat (On-Hold voor het ID systeem)
