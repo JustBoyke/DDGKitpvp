@@ -2,7 +2,7 @@
 Proef plugin voor DDG Sollicitatie
 
 
-	//todo:
+todo:
 - [ ] In-Game lobby systeem voor deathspawn -V
 		Instellen door elke game een ID te geven en te koppelen aan de spawn informatie bij join event in hashmap zetten
 - [ ] instelbare spawns -V
