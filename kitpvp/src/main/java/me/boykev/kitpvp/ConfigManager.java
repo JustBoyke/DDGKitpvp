@@ -42,10 +42,12 @@ public class ConfigManager
       }
   }
 public void LoadDefaults() {
-    config.addDefault("host", "-");
-    config.addDefault("user", "-");
-    config.addDefault("password", "-");
-    config.addDefault("database", "-");
+    config.addDefault("sql.host", "-");
+    config.addDefault("sql.port", "-");
+    config.addDefault("sql.user", "-");
+    config.addDefault("sql.password", "-");
+    config.addDefault("sql.database", "-");
+    config.addDefault("sql.tabel", "-");
     config.addDefault("Sign-Prefix", "&f[&cKitPVP&f]");
     config.options().copyDefaults(true);
     save();

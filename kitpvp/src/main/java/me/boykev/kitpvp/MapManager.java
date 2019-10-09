@@ -12,7 +12,7 @@ public class MapManager
   
   public MapManager(Main basement)
   {
-    this.configFile = new File(basement.getDataFolder(), "config.yml");
+    this.configFile = new File(basement.getDataFolder(), "maps.yml");
     this.config = YamlConfiguration.loadConfiguration(this.configFile);
   }
   

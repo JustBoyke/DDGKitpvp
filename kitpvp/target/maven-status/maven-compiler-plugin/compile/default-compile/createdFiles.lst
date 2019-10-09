@@ -1,3 +1,4 @@
 me\boykev\kitpvp\Main.class
-me\boykev\kitpvp\EventManager.class
+me\boykev\kitpvp\MapManager.class
 me\boykev\kitpvp\ConfigManager.class
+me\boykev\kitpvp\EventManager.class
